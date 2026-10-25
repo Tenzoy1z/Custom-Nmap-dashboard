@@ -50,7 +50,7 @@ Scan hosts, discover open ports, grab service banners — all from a modern dark
 ### 1. Clone / download the project
 
 ```bash
-cd "Custom Nmap"
+git clone https://github.com/Tenzoy1z/Custom-Nmap-dashboard.git"
 ```
 
 ### 2. (Recommended) Create a virtual environment
