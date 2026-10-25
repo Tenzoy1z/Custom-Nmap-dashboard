@@ -1,7 +1,9 @@
-# Visual Reconnaissance Dashboard
+# Custom Nmap
 
 A lightweight Python desktop application for network reconnaissance.  
 Scan hosts, discover open ports, grab service banners — all from a modern dark-themed GUI.
+
+> **Note:** This project was previously named **Visual Reconnaissance Dashboard**, which is why earlier commits still use that name.
 
 ---
 
@@ -48,7 +50,7 @@ Scan hosts, discover open ports, grab service banners — all from a modern dark
 ### 1. Clone / download the project
 
 ```bash
-cd "Visual Reconnaissance Dashboard"
+cd "Custom Nmap"
 ```
 
 ### 2. (Recommended) Create a virtual environment
@@ -76,7 +78,7 @@ python dashboard.py
 ## Project Structure
 
 ```
-Visual Reconnaissance Dashboard/
+Custom Nmap/
 ├── dashboard.py        # GUI entry point (CustomTkinter)
 ├── scanner.py          # Network scanning backend (stdlib only)
 ├── cve_lookup.py       # CVE correlation via NVD API (self-contained)
@@ -112,4 +114,4 @@ The current log path is displayed in the status bar at the bottom of the window.
 
 This project is provided as-is for educational and authorized testing purposes only.  
 **Only scan networks you own or have explicit permission to test.**
-
+**This project is independent and not affiliated with or endorsed by the Nmap Project.**
